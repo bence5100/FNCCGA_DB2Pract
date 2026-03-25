@@ -1,0 +1,3 @@
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Formázott dátum: ' || TO_CHAR(SYSDATE, 'YYYY-MM-DD'));
+END;
